@@ -1,0 +1,372 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+     font-family: sans-serif;
+     color:white;
+}
+
+.part1{
+    background-image: url('background.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.333) 100%); 
+    
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 150px;
+}
+
+.logo {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin-right: auto;
+}
+
+.buttons {
+    position: relative;
+    margin-left: auto;
+}
+
+.button1 {
+    margin-left: 10px;
+    border-color:white;
+    border-radius:4.5px;
+    height: 35px;
+    background-color:transparent;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    width:120px;
+    border-width: 0.5px;
+}
+
+.button2{
+    margin-left: 30px; 
+    margin-right: 160px;
+    background-color:#ea1f1f;
+    height:35px;  
+    color:white;
+    width:90px;
+    border-radius:5px;
+    font-family: sans-serif;
+    font-weight:bold;
+    border-width:0px;
+}
+
+.text-container{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    margin-top:200px;
+    text-align: center;
+}
+
+.p1{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.p2{
+    font-weight: normal;
+    font-size:20px;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    position: relative;
+}
+
+.input input[type="text"],
+.input input[type="submit"] {
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.input input[type="text"] {
+    width: 400px;
+    background-color: #32323280;
+    color: white;
+    margin-left: -100px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.input input[type="text"]::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+.input input[type="submit"] {
+    width: 200px;
+    background-color: #ea1f1f;
+    color: white;
+    margin-right: -100px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    font-size: 22px;
+}
+
+.part2 {
+    width: 100%;
+    min-height: 80vh;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .part2 .text-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  
+  .part2 .title {
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: -80px;
+    margin-left:100px;
+  }
+  
+  .part2 .p1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 100px;
+  }
+  
+  .desktop img {
+    max-width: 100%; 
+    height: 400px;
+    margin-right: 150px;
+    margin-top:100px;
+  }
+
+  .part3 {
+    width: 100%;
+    min-height: 80vh;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part3 .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 70px; 
+    white-space:nowrap;
+}
+
+.part3 .title {
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: -150px;
+    margin-right: 170px; 
+}
+
+.part3 .p1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 25px;
+    margin-right:170px ; 
+}
+
+.part3 .desktop img {
+    max-width: 100%;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.part4 {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  margin-top: 10px; 
+  overflow: hidden;
+}
+
+.faq {
+  padding: 50px 5%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.faq h2 {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.list {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.list li {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.list li label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  background: #303030;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.list li label:hover {
+  background: #404040;
+}
+
+label::after {
+  content: '+';
+  font-size: 34px;
+  transition: transform 0.3s;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.list .content {
+  background: #303030;
+  font-size: 18px;
+  text-align: left;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  border-radius: 0 0 5px 5px;
+}
+
+input[type="radio"]:checked + label + .content {
+  max-height: 1000px;
+  padding: 20px;
+  height: auto;
+}
+
+input[type="radio"]:checked + label::after {
+  transform: rotate(45deg);
+}
+
+input[type="radio"]:not(:checked) + label + .content {
+  max-height: 0;
+  padding: 0 20px;
+  height: auto;
+}
+
+input[type="radio"]:checked ~ input[type="radio"]:not(:checked) + label + .content {
+  max-height: 0;
+  padding: 0 20px;
+}
+
+.faq small {
+  font-size: 23px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom:-40px;
+}
+
+.part5{
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+  margin-top: 10px; 
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 8px rgb(40, 40, 40);
+  margin-left: 160px;
+  margin-bottom: 1%;
+}
+
+.footer .col {
+  flex: 2;
+  margin-top:30px;
+}
+
+.footer .col a {
+  display: block;
+  margin: 15px 0;
+  text-decoration:underline;
+  font-size: 14px;
+  color:rgba(255, 255, 255, 0.909);
+}
+
+.btn button {
+  color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 3px;
+  flex-direction: column;
+  margin-left: 160px;
+  margin-bottom: 1%;
+}
+
+.net p{
+  margin-left: 160px;
+  margin-bottom:5%;
+  font-size: small;
+  color:rgba(255, 255, 255, 0.576);
+}
+
+.part4 .input{
+  margin-bottom: 40px;
+}
